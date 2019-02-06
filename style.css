@@ -2,6 +2,93 @@ body{
 	position: relative;
 }
 
+.head{
+	position: absolute;
+	top: 145px;
+	left: 225px;
+	width: 50px;
+	height: 50px;
+	background-color: green;
+}
+
+.lefteye{
+	position: absolute;
+	border-radius: 50%;
+	top: 153px;
+	left: 228px;
+	width: 15px;
+	height: 15px;
+	background-color: rgb(50, 205, 50);
+}
+
+.righteye{
+	position: absolute;
+	border-radius: 50%;
+	top: 153px;
+	left: 256px;
+	width: 15px;
+	height: 15px;
+	background-color: rgb(50, 205, 50);
+}
+
+.mouth{
+	position: absolute;
+	top: 178px;
+	left: 238px;
+	width: 25px;
+	height: 8px;
+	background-color: rgb(50, 205, 50);
+}
+
+.neck{
+	position: absolute;
+	top: 193px;
+	left: 243px;
+	width: 15px;
+	height: 7px;
+	background-color: green;
+}
+
+.leftarm{
+	position: absolute;
+	transform: rotate(45deg);
+	top: 195px;
+	left: 175px;
+	width: 15px;
+	height: 70px;
+	background-color: rgb(255, 105, 180);
+}
+
+.lefthand{
+	position: absolute;
+	border-radius: 50%;
+	top: 250px;
+	left: 135px;
+	width: 30px;
+	height: 30px;
+	background-color: rgb(255, 105, 180);
+}
+
+.rightarm{
+	position: absolute;
+	transform: rotate(135deg);
+	top: 195px;
+	left: 310px;
+	width: 15px;
+	height: 70px;
+	background-color: rgb(255, 105, 180);
+}
+
+.righthand{
+	position: absolute;
+	border-radius: 50%;
+	top: 250px;
+	left: 335px;
+	width: 30px;
+	height: 30px;
+	background-color: rgb(255, 105, 180);
+}
+
 .body{
 	position: absolute;
 	top: 200px;
@@ -10,3 +97,48 @@ body{
 	height: 100px;
 	background-color: green;
 }
+
+.leftleg{
+	position: absolute;
+	top: 300px;
+	left: 210px;
+	width: 15px;
+	height: 65px;
+	background-color: rgb(255, 105, 180);
+}
+
+.rightleg{
+	position: absolute;
+	top: 300px;
+	left: 275px;
+	width: 15px;
+	height: 65px;
+	background-color: rgb(255, 105, 180);
+}
+
+.leftfoot{
+	position: absolute;
+	top: 350px;
+	left: 183px;
+	width: 42px;
+	height: 22px;
+	background-color: rgb(255, 105, 180);
+}
+
+.rightfoot{
+	position: absolute;
+	top: 350px;
+	left: 275px;
+	width: 42px;
+	height: 22px;
+	background-color: rgb(255, 105, 180);
+}
+
+
+
+
+
+
+
+
+
